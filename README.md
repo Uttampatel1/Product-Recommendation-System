@@ -34,7 +34,7 @@ To install and run the Product Recommendation System, follow these steps:
 
 1.  Clone the repository from GitHub:
     ```code
-    git clone https://github.com/example/recommendation-system.git
+    git clone https://github.com/Uttampatel1/Product-Recommendation-System.git
     ```
     
 2.  Navigate to the project directory:
@@ -48,38 +48,24 @@ To install and run the Product Recommendation System, follow these steps:
     
     code
     
-    `python -m venv venv
+    ```python -m venv venv
     source venv/bin/activate (for Linux/Mac)
     venv\Scripts\activate.bat (for Windows)
-    pip install -r requirements.txt` 
+    pip install -r requirements.txt
+    ```
     
 4.  Configure the system by modifying the configuration files to suit your environment and requirements. This may include specifying the data sources, algorithm settings, and other parameters.
     
 5.  Run the application:
     
     code
-    
-    `python app.py` 
+    ```
+    python main.py
+    ```
     
 6.  Access the application by navigating to `http://localhost:5000` in your web browser.
     
 
-## Usage
-
-The Product Recommendation System provides a user-friendly interface for users to interact with. Users can create accounts, browse products, rate items, provide feedback, and receive personalized recommendations.
-
-To get started:
-
-1.  Visit the homepage of the application.
-    
-2.  Create a new user account or log in with existing credentials.
-    
-3.  Browse the available products and interact with the system by rating items, purchasing products, or providing feedback on recommendations.
-    
-4.  The system will continuously learn from your interactions and generate personalized recommendations based on your preferences.
-    
-5.  Explore the different recommendation strategies and features of the system to enhance your shopping experience.
-    
 
 ## Contributing
 
