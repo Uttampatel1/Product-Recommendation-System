@@ -33,7 +33,7 @@ The Product Recommendation System offers the following features:
 To install and run the Product Recommendation System, follow these steps:
 
 1.  Clone the repository from GitHub:
-    ```code
+    ```
     git clone https://github.com/Uttampatel1/Product-Recommendation-System.git
     ```
     
@@ -57,8 +57,7 @@ To install and run the Product Recommendation System, follow these steps:
 4.  Configure the system by modifying the configuration files to suit your environment and requirements. This may include specifying the data sources, algorithm settings, and other parameters.
     
 5.  Run the application:
-    
-    code
+   
     ```
     python main.py
     ```
