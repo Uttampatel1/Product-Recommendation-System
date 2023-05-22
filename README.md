@@ -64,6 +64,8 @@ To install and run the Product Recommendation System, follow these steps:
     
 6.  Access the application by navigating to `http://localhost:5000` in your web browser.
     
+## Demo
+![image](static/demo.png)
 
 
 ## Contributing
