@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Product Recommendations</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  <!-- <link rel="stylesheet" href="{{ url_for('static', filename='in.css') }}"> -->
+  </head>
+
+<body>
+  <h1>Product Recommendations</h1>
+ 
+  <form id="customer-form">
+    <label for="customerId">Customer ID:</label>
+    <input type="text" id="customerId" name="customerId">
+    <br>
+    <br>
+    <label for="areaName">Area Name:</label>
+    <select id="areaName" name="areaName">
+      <option value="">Select Area</option>
+    </select>
+    <br>
+    <br>
+    <label for="industryName">Industry Name:</label>
+    <select id="industryName" name="industryName">
+      <option value="">Select Industry</option>
+    </select>
+    <br>
+    <br>
+    <button type="button" onclick="getRecommendations()">Get Recommendations</button>
+  </form>
+  <div id="result"></div>
+  <script src="{{ url_for('static', filename='pd.js') }}"></script>
+  <!-- <script src="{{ url_for('static', filename='bk.js') }}"></script> -->
+  
+</body>
+
+</html>
